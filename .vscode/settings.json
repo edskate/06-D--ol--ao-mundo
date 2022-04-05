@@ -3,11 +3,15 @@
         "Adiante",
         "aspas",
         "escrevermos",
+        "hader",
         "mais",
         "nosso",
         "sobre",
         "suficiente",
         "teoria",
         "veremos"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#a656b9"
+    }
 }

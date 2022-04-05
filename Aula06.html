@@ -1,113 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body{
-            background-color: blanchedalmond;
-            color: black;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 15px;
-        }
-        h1{
-            color: darkslategray;
-            text-shadow: 2px 3px 4px #000;
-        }
-        b{
-            color: brown;
-        }
-        p{
-            color: darkslategrey;
-            font-size: 15px;
-        }
-        button{
-            color: blue;
-            font-size: 15px;
-        }
+      body {
+        background-color: blanchedalmond;
+        color: black;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 15px;
+      }
+      h1 {
+        color: darkslategray;
+        text-shadow: 2px 3px 4px #000;
+      }
+      b {
+        color: brown;
+      }
+      p {
+        color: darkslategrey;
+        font-size: 15px;
+      }
+      button {
+        color: blue;
+        font-size: 15px;
+      }
     </style>
-</head>
-<body>
-   <h1>Transcrição</h1> 
-   <p>Dando continuidade às aulas anteriores, ficamos com o seguinte questionamento: <br>
-     seria isto um programa? Para verificarmos, faremos o seguinte:</p>
-     <br>
-     <h1>Meu primeiro teste! com html</h1>
-     <br>
-     Seria isso um programa?
-     <p>Utilizaremos uma tag chamada âncora, representada pela letra "a". <br>
-         O conteúdo dela será a palavra "aqui":</p>
-         <br>
-        <h1>Meu primeiro teste!</h1>
-        <br>
-        Seria isso um programa? Descubra visitando o nome de sua plataforma  <a>aqui</a> 
-        <br>
-        <p>Por meio do atributo<b> href</b>, indicaremos o endereço web desejado:</p>
-        <a href="">aqui</a>
-        <p>Utilizamos uma tag HTML de âncora para criar links na web.   
-            <br> Salvaremos e retornaremos ao navegador, feito isso,  <br>
-             recarregaremos a página. Vemos que a palavra aqui está em destaque:</p>
-             <p>Ao clicar no texto somos direcionados para a página inicial desejada.</p>
-             <p>O problema do código que escrevemos é que, apesar de interessante, <br>
-                 o HTML é estático, isto é, não é dinâmico. <br>
-                  E se quisermos que o HTML, em vez de pular poucas linhas, pule dez, quinze, ou vinte?<br>
-                   Teremos que abrir o arquivo HTML e inserir diversas tags do tipo <br>, da seguinte forma:</p>
+  </head>
+  <body>
+    <h1>Transcrição</h1>
+    <p>
+      Dando continuidade às aulas anteriores, ficamos com o seguinte
+      questionamento: <br />
+      seria isto um programa? Para verificarmos, faremos o seguinte:
+    </p>
+    <br />
+    <h1>Meu primeiro teste! com html</h1>
+    <br />
+    Seria isso um programa?
+    <p>
+      Utilizaremos uma tag chamada âncora, representada pela letra "a". <br />
+      O conteúdo dela será a palavra "aqui":
+    </p>
+    <br />
+    <h1>Meu primeiro teste!</h1>
+    <br />
+    Seria isso um programa? Descubra visitando o nome de sua plataforma
+    <a>aqui</a>
+    <br />
+    <p>
+      Por meio do atributo<b> href</b>, indicaremos o endereço web desejado:
+    </p>
+    <a href="">aqui</a>
+    <p>
+      Utilizamos uma tag HTML de âncora para criar links na web. <br />
+      Salvaremos e retornaremos ao navegador, feito isso, <br />
+      recarregaremos a página. Vemos que a palavra aqui está em destaque:
+    </p>
+    <p>Ao clicar no texto somos direcionados para a página inicial desejada.</p>
+    <p>
+      O problema do código que escrevemos é que, apesar de interessante, <br />
+      o HTML é estático, isto é, não é dinâmico. <br />
+      E se quisermos que o HTML, em vez de pular poucas linhas, pule dez,
+      quinze, ou vinte?<br />
+      Teremos que abrir o arquivo HTML e inserir diversas tags do tipo <br />,
+      da seguinte forma:
+    </p>
+                                   
+    <h1>Exemplo de quebra de linha:</h1>
+    <h1>Meu primeiro teste!</h1>
+    <br />1 <br />2 <br />3 <br />4 <br />5 <br />6 <br />7 <br />8 <br />9
+    Seria isso um programa? Descubra visitando o seu site que procura
+    <a href="">aqui</a>.
+    <br />
+    <p>
+      Assim, sempre que quisermos aumentar ou diminuir o número de quebras de
+      linha teremos <br />
 
-                   <h1>Exemplo de quebra de linha:</h1>
-                   <h1>Meu primeiro teste!</h1>
-<br>1
-<br>2
-<br>3
-<br>4
-<br>5
-<br>6
-<br>7
-<br>8
-<br>9
-Seria isso um programa? Descubra visitando o seu site que procura  <a href="">aqui</a>.
-<br>
-<p>Assim, sempre que quisermos aumentar ou diminuir o número de quebras de linha teremos <br>
-  
-     que remover ou adicionar as tags <br>, sempre modificando o documento. <br>
-      Como ele é estático, não é possível, por exemplo, <br>
-       exibir um contador na tela com a passagem das horas, <br>
-        tampouco será possível capturar as informações do usuário.</p>
-        <br>
-        <p>Para que possamos de fato programar, precisaremos utilizar uma outra linguagem. <b> O navegador é poliglota,</b> e "fala" algumas linguagens além de HTML, <br>
-             sendo capaz de trabalhar com uma linguagem verdadeiramente de programação, que é o <b> JavaScript.</b></p>
-             <br>
-             <p>Neste treinamento, aprenderemos a <b> lógica de programação utilizando a linguagem JavaScript.</b></p>
-             <br>
-             <p>Queremos exibir um alerta para o usuário, um pop-up que surja na tela e contenha a seguinte mensagem:<b> "isso aqui é uma linguagem dinâmica"</b> ou <b> "isso aqui é uma linguagem de programação".</b></p>
-             <br>
-             <p>Como fazer isso? Primeiro, definiremos a mensagem em JavaScript. <br>
-                 E para criarmos um texto no<b> JavaScript</b>, é necessário que ele esteja entre aspas:</p>
-                 <br>
-               <p>  O JavaScript nos permite exibir um pop-up na tela, <br>
-                 que será de alerta. <br>
-                  Precisaremos utilizar uma instrução da linguagem indicando que um alerta deverá ser exibido:</p>
-                  <br>
+      que remover ou adicionar as tags <br />, sempre modificando o documento.
+      <br />
+      Como ele é estático, não é possível, por exemplo, <br />
+      exibir um contador na tela com a passagem das horas, <br />
+      tampouco será possível capturar as informações do usuário.
+    </p>
+    <br />
+    <p>
+      Para que possamos de fato programar, precisaremos utilizar uma outra
+      linguagem. <b> O navegador é poliglota,</b> e "fala" algumas linguagens
+      além de HTML, <br />
+      sendo capaz de trabalhar com uma linguagem verdadeiramente de programação,
+      que é o <b> JavaScript.</b>
+    </p>
+    <br />
+    <p>
+      Neste treinamento, aprenderemos a
+      <b> lógica de programação utilizando a linguagem JavaScript.</b>
+    </p>
+    <br />
+    <p>
+      Queremos exibir um alerta para o usuário, um pop-up que surja na tela e
+      contenha a seguinte mensagem:<b> "isso aqui é uma linguagem dinâmica"</b>
+      ou <b> "isso aqui é uma linguagem de programação".</b>
+    </p>
+    <br />
+    <p>
+      Como fazer isso? Primeiro, definiremos a mensagem em JavaScript. <br />
+      E para criarmos um texto no<b> JavaScript</b>, é necessário que ele esteja
+      entre aspas:
+    </p>
+    <br />
+    <p>
+      O JavaScript nos permite exibir um pop-up na tela, <br />
+      que será de alerta. <br />
+      Precisaremos utilizar uma instrução da linguagem indicando que um alerta
+      deverá ser exibido:
+    </p>
+    <br />
 
-                  <button>alert"Isso sim é um programa";</button>
-                  <h1>Há uma peculiaridade: </h1>
-                      <br>
-                      <p> o texto deve estar entre parênteses e aspas duplas <br> <button> " ", e com um ;</button> <br>
-                         (ponto e vírgula) no fim:</p>
-                         <br>
-                         <button>alert("Isso sim é um programa");</button>
-                         <br>
-                         <p>Uso do ponto e vírgula no final de uma instrução JavaScript <br>
-                             é <button> opcional </button> e neste treinamento não teremos problemas com sua ausência. <br>
-                              Contudo, ao avançar nesta linguagem você verá determinados processamentos de código <br>
-                               podem resultar em algo não esperado na ausência do ponto e vírgula. <br> <button> Sendo assim,
-                                vamos criar desde já o hábito de terminar uma instrução com o ponto e vírgula.</button></p>
-                                <br>
-                                <p>Adiante veremos mais sobre isso. <br>
-                                     Em teoria, isto é suficiente para escrevermos nosso <b> primeiro código em JavaScript.</b></p>
-                                     <br>
-                                    
-                                     <button>até a proxima aula </button>
-</body>
+    <button>alert"Isso sim é um programa";</button>
+    <h1>Há uma peculiaridade:</h1>
+    <br />
+    <p>
+      o texto deve estar entre parênteses e aspas duplas <br />
+      <button>" ", e com um ;</button> <br />
+      (ponto e vírgula) no fim:
+    </p>
+    <br />
+    <button>alert("Isso sim é um programa");</button>
+    <br />
+    <p>
+      Uso do ponto e vírgula no final de uma instrução JavaScript <br />
+      é <button>opcional</button> e neste treinamento não teremos problemas com
+      sua ausência. <br />
+      Contudo, ao avançar nesta linguagem você verá determinados processamentos
+      de código <br />
+      podem resultar em algo não esperado na ausência do ponto e vírgula. <br />
+      <button>
+        Sendo assim, vamos criar desde já o hábito de terminar uma instrução com
+        o ponto e vírgula.
+      </button>
+    </p>
+    <br />
+    <p>
+      Adiante veremos mais sobre isso. <br />
+      Em teoria, isto é suficiente para escrevermos nosso
+      <b> primeiro código em JavaScript.</b>
+    </p>
+    <br />
+
+    <button>até a proxima aula</button> <br />
+    <a href="Aula07.html">Proximo capitulo</a>
+  </body>
 </html>
