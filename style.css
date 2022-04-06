@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+h1{color: aqua;}
+h2{color: aqua;}
+button{
+    background-color: darkgoldenrod;
+font-size: 15px;
+box-shadow: 1px 1px 10px #00ffff;
+}
+p{
+    color: crimson;
+    text-shadow: 2px 3px 4px #043077;
+}
+li{
+    color: chartreuse;
+}
